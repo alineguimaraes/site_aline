@@ -1,0 +1,27 @@
+.cabecalho { 
+    background-color: #2B3F58;
+    padding: 50px 20px;
+    height: 150px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-centralizado {
+    padding: 10px 0px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+.corpo {
+    padding: 50px 20px;
+}
+.rodape {
+    background-color: #F47E64;
+    padding: 50px 20px;
+    height: 150px;
+    color: #2B3F58;
+}
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
