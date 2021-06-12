@@ -1,13 +1,37 @@
 .cabecalho { 
     background-color: var(--cor-principal);
-    padding: 50px 20px;
-    height: 150px;
+    padding: 5rem 2rem;
+    height: auto;
     color: white;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.cabecalho p{
+    flex-grow: 3;
+
+}
+
+.cabecalho img {
+    min-height: 50%;
+    min-width: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.cabecalho button{
+    min-width: 30%;
+    max-width: 100%;
+
 }
 .botao-principal{
-
+    background-color: var(--cor-destaque);
+    color:white;
+    font-family: var(--font-principal);
+    font-weight: 100;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    border:none;
 }
 .menu{
 }
@@ -26,14 +50,15 @@
     height: 150px;
     color: var(--cor-principal);
     font-family: var(--font-secundaria);
-    font-size: 20px;
+    font-size: 2rem;
 }
 body {
     margin: 0%;
-    font-family: var(--font-principal);
     --font-principal:'Roboto', sans-serif;
     --font-secundaria:'Ruluko', sans-serif;
     --cor-principal:#2B3F58;
     --cor-secundaria:#F47E64;
     --cor-destaque:#55728D;
+    font-family: var(--font-principal);
+    font-size: 62.5%;
 }
