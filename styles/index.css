@@ -1,5 +1,5 @@
 .cabecalho { 
-    background-color: #2B3F58;
+    background-color: var(--cor-principal);
     padding: 50px 20px;
     height: 150px;
     color: white;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 .botao-principal{
-    
+
 }
 .menu{
 }
@@ -21,14 +21,19 @@
     padding: 200px 20px;
 }
 .rodape {
-    background-color: #F47E64;
+    background-color: var(--cor-secundaria);
     padding: 50px 20px;
     height: 150px;
-    color: #2B3F58;
-    font-family: 'Ruluko', sans-serif;
+    color: var(--cor-principal);
+    font-family: var(--font-secundaria);
     font-size: 20px;
 }
 body {
     margin: 0%;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-principal);
+    --font-principal:'Roboto', sans-serif;
+    --font-secundaria:'Ruluko', sans-serif;
+    --cor-principal:#2B3F58;
+    --cor-secundaria:#F47E64;
+    --cor-destaque:#55728D;
 }
