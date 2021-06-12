@@ -6,11 +6,16 @@
     align-items: center;
     justify-content: center;
 }
-.conteudo-centralizado {
-    padding: 10px 0px;
-    display:flex; 
-    align-items: center;
-    justify-content: center;
+.botao-principal{
+    
+}
+.menu{
+}
+.apresentaçao{
+
+}
+.secao-conteudo{
+
 }
 .corpo {
     padding: 200px 20px;
