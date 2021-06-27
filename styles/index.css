@@ -51,9 +51,10 @@
     color:var(--cor-secundaria);
     transition: color 0.5s;
 }
-.apresentaçao{
-
+.apresentaçao {
+    background-color: white;
 }
+
 .secao-conteudo{
 
 }
@@ -77,4 +78,14 @@ body {
     --cor-destaque:#55728D;
     font-family: var(--font-principal);
     font-size: 62.5%;
+}
+
+@media (max-width:768px){
+    .menu{
+        display:flex;
+        justify-content: center;
+    }
+    .botao-principal{
+        font-size: 1rem;
+    }
 }
