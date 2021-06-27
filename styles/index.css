@@ -33,7 +33,23 @@
     padding: 0.5rem;
     border:none;
 }
+.botao-principal:hover{
+    color:var(--cor-principal);
+    transition: color 0.5s;
+    background-color: white;
+    transition: background-color 0.5s;
+}
 .menu{
+    background-color: var(--cor-destaque);
+    padding: 0.5rem;
+}
+.menu a:link {
+    color:white;
+    text-decoration: none;
+}
+.menu a:hover {
+    color:var(--cor-secundaria);
+    transition: color 0.5s;
 }
 .apresentaçao{
 
