@@ -4,8 +4,8 @@
     height: auto;
     color: white;
     display:flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 .cabecalho p{
@@ -18,6 +18,9 @@
     min-width: 30%;
     max-width: 50%;
     max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 .cabecalho button{
     min-width: 30%;
@@ -25,8 +28,8 @@
 
 }
 .botao-principal{
-    background-color: var(--cor-destaque);
-    color:white;
+    background-color: white;
+    color:var(--cor-principal);
     font-family: var(--font-principal);
     font-weight: 100;
     font-size: 1.2rem;
@@ -77,31 +80,29 @@
 .img-destaque img{
     border-radius: 1rem;
 }
-
-.secao-conteudo-1{
+.titulos{
     background-color: var(--cor-destaque);
     text-align: center;
     color: white;
     padding-left: 0.5rem;
-    padding-top: 0.5rem;
+    padding-top: 1.0rem;
     padding-right: 0.5rem;
     padding-bottom: 0.5rem;
+    font-family: var(--font-secundaria);
+
 }
-.secao-conteudo-2{
+.grade-de-fotos{
     background-color: white;
     flex-wrap: wrap;
 }
-.secao-conteudo-3 {
-    background-color: var(--cor-destaque);
-    text-align: center;
-    color: white;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.5rem;
-}
 .conteudo{
     background-color: white;
+    padding: 4rem 0rem;
+}
+.botoes-acao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .botao-p{
     background-color: var(--cor-destaque);
@@ -112,6 +113,7 @@
     padding: 0.5rem;
     border:none;
     justify-content: center;
+    margin: 0.5rem;
 }
 .botao-p:hover{
     color:var(--cor-principal);
@@ -150,5 +152,8 @@ body {
     }
     .botao-principal{
         font-size: 1rem;
+    }
+    .caixa-destaque{
+        margin-bottom: 1rem;
     }
 }
