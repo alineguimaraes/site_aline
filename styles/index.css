@@ -52,10 +52,17 @@
 .menu a:link {
     color:white;
     text-decoration: none;
+
 }
 .menu a:hover {
     color:var(--cor-secundaria);
     transition: color 0.5s;
+}
+
+.menu a:visited {
+    color:white;
+    text-decoration: none;
+
 }
 .apresentaçao {
     background-color: white;
@@ -94,10 +101,29 @@
 .grade-de-fotos{
     background-color: white;
     flex-wrap: wrap;
+    padding-left: 1.0rem;
+    padding-top: 1.0rem;
+    padding-right: 1.0rem;
+    padding-bottom: 1.0rem;
+
+}
+
+.img-portfolio {
+    margin: 0.5rem;
+    transition: margin-top 0.5s ease-in ;
+}
+
+.img-portfolio:hover {
+    margin-top: 0rem;
 }
 .conteudo{
     background-color: white;
-    padding: 4rem 0rem;
+    padding: 4rem 1rem;
+}
+
+.conteudo #botao-depoimentos{
+    margin-left: auto;
+    margin-right: auto;
 }
 .botoes-acao{
     display: flex;
@@ -121,6 +147,31 @@
     background-color: var(--cor-destaque-light);
     transition: background-color 0.5s;
 }
+#botao-depoimentos{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 0.4rem;
+
+}
+
+details {
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+details img {
+    border-radius: 50%;
+}
+
+details p {
+    padding: 0.5rem;
+    background-color: var(--cor-destaque-light);
+    border-radius: 1rem;
+}
+
 .corpo {
     padding: 200px 20px;
 }
