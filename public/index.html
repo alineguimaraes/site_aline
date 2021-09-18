@@ -34,7 +34,7 @@
             <div class="row align-items-start conteudo-linha"> 
                 <div class="col-12 col-lg-6 coluna-1">
                     <div class=" caixa-destaque">
-                        <p> Meu nome é Aline Souza, tenho 21 e 22
+                        <p> Meu nome é Aline Souza, tenho 21
                     anos e sou a responsável pela 
                     empresa. </p>
                     
@@ -71,22 +71,22 @@
         <div class='grade-de-fotos'>
             <div class="row align-items-start conteudo-fotos"> 
                 <div class="col-6 col-lg-4">
-                    <img src="assets/01.jpg" class="img-fluid img-portfolio" alt="">
+                    <img src="assets/01.png" class="img-fluid img-portfolio" alt="">
                 </div>
                 <div class="col-6 col-lg-4">
-                    <img src="assets/02.jpg" class="img-fluid img-portfolio" alt="">
+                    <img src="assets/02.png" class="img-fluid img-portfolio" alt="">
                 </div>
                 <div class="col-6 col-lg-4">
-                    <img src="assets/03.jpg" class="img-fluid img-portfolio" alt="">
+                    <img src="assets/03.png" class="img-fluid img-portfolio" alt="">
                     </div>
                 <div class="col-6 col-lg-4">
-                    <img src="assets/04.jpg" class="img-fluid img-portfolio" alt="">
+                    <img src="assets/04.png" class="img-fluid img-portfolio" alt="">
                     </div>
                 <div class="col-6 col-lg-4">
-                    <img src="assets/05.jpg" class="img-fluid img-portfolio" alt="">
+                    <img src="assets/05.png" class="img-fluid img-portfolio" alt="">
                     </div>
                  <div class="col-6 col-lg-4">
-                    <img src="assets/06.jpg" class="img-fluid img-portfolio" alt="">
+                    <img src="assets/06.png" class="img-fluid img-portfolio" alt="">
                     </div>
                 </div>
         </div>
@@ -127,31 +127,50 @@
             <p class="h4"> ORÇAMENTO </p>
         </div>
         <div class="conteudo"> 
-            <form class="" method='post' action="/form">
-                <div> 
+            <form class=" contact-form " method='post' action="/form">
+                <div > 
                     <label for="nome" class="visually-hidden"> Nome Completo </label>
-                    <input type="text" name='nome' placeholder="Nome Completo" id="nome" class="form-control"> 
+                    <input type="text" name='nome' placeholder="Nome Completo" id="nome" class="form-control form-item"> 
                 </div>
-                <div> 
-                    <label for="email" class="visually-hidden"> email </label>
-                    <input type="email" name='email' placeholder="Email" id="email" class="form-control"> 
+                <div class="row">
+                    <div class="col"> 
+                        <label for="email" class="visually-hidden"> email </label>
+                        <input type="email" name='email' placeholder="Email" id="email" class="form-control form-item"> 
+                    </div>
+                    <div class="col"> 
+                        <label for="telefone" class="visually-hidden"> telefone </label>
+                        <input type="phone" name='telefone' placeholder="Telefone" id="telefone" class="form-control form-item"> 
+                    </div>
                 </div>
-                <div> 
-                    <label for="telefone" class="visually-hidden"> telefone </label>
-                    <input type="phone" name='telefone' placeholder="Telefone" id="telefone" class="form-control"> 
-                </div>
-                <div> 
-                    <label for="mensagem">Mensagem</label>
-                    <textarea placeholder="Mensagem" name='mensagem'id="mensagem" class="form-control"> </textarea>
+                <div >
+                    <label for="mensagem" class="visually-hidden"> Mensagem</label>
+                    <textarea placeholder="Mensagem" name='mensagem'id="mensagem" class="form-control form-item"></textarea>
                 </div>
                 <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                    <button type="submit" id="submit-button">Enviar</button>
                   </div>
             </form>
 
         </div>
-        <div class='secao-conteudo' id='orcamento'></div>
-        <div class='rodape'></div>
+        <div class='rodape row' >
+            <div class="col-12 col-lg-10">
+                <img src="assets/logo_aline_2.png"  class="img-fluid" alt="">
+            </div>
+            <div class="col-12 col-lg-2">
+                <span>
+                    <a href="https://api.whatsapp.com/send?phone=5511920033269">
+                        <img src="assets/whats.png" class="img-fluid" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/aline.sdesign/">
+                        <img src="assets/insta.png"  class="img-fluid" alt="">
+                    </a>
+                    <a href="mailto:alinesouzaguimaraes7@gmail.com?subject=Orçamento para Aline Souza">
+                        <img src="assets/email.png" class="img-fluid" alt="">
+                    </a>
+                </span>
+            </div>
+
+        </div>
         <script src="" async defer></script>
     </body>
 </html>
