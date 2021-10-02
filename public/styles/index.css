@@ -87,6 +87,9 @@
 .img-destaque img{
     border-radius: 1rem;
 }
+.borda-arredondada {
+    border-radius: 1rem;
+}
 .titulos{
     background-color: var(--cor-destaque);
     text-align: center;
